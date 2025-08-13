@@ -1,0 +1,64 @@
+To list and navigate files in Helix, you’ll use its powerful file picker system, which replaces the traditional file tree with fuzzy search and modal navigation. Here's how to do it:
+
+📁 File Listing in Helix
+Helix doesn’t show a sidebar file tree like VS Code. Instead, it uses pickers—interactive windows that let you jump to files quickly.
+🔍 Open the File Picker
+- Press Space + f in Normal Mode
+→ This opens a fuzzy file picker at the project root (usually where .git is located).
+🧭 Navigate Files
+- Start typing part of the filename (e.g. app, globals, tsx)
+- Use arrow keys or j/k to move through results
+- Press Enter to open the selected file
+📂 Open a Directory
+You can also launch Helix directly into a directory:
+hx .
+
+
+This opens the file picker scoped to that folder and its subdirectories.
+
+🛠 Bonus Pickers
+| Picker Type | Shortcut | Description | 
+| File Picker | Space + f | Fuzzy search files | 
+| Global Search | Space + / | Search across all files | 
+| Buffer Picker | Space + b | Switch between open files | 
+| Symbol Picker | Space + s | List functions/variables in current file | 
+| Workspace Symbols | Space + S | Search symbols across project | 
+
+
+Source: Helix Picker Docs  Helix Usage Guide
+
+Would you like a visual cheat sheet of all Helix pickers and their shortcuts? I can generate one for quick reference.
+
+**** FOR COPY AND PASTING ******
+
+Absolutely—Helix supports copying, pasting, deleting, and undoing changes using intuitive modal commands. Here's a quick cheat sheet to help you master these actions:
+
+✂️ Copy, Paste, Delete, Undo in Helix
+| Action | Mode | Key Command | Description | 
+| Copy (Yank) | Select | y | Copies the selected text | 
+| Paste | Normal | p | Pastes after the cursor | 
+| Delete | Select | d | Deletes the selected text | 
+| Change | Select | c | Deletes and enters Insert mode | 
+| Undo | Normal | u | Undoes the last change | 
+| Redo | Normal | Ctrl-r | Redoes the undone change | 
+
+🧠 Example Workflow
+- Copy a Line
+- Press v to enter Select mode
+- Use j or k to select the line
+- Press y to yank (copy)
+- Paste It
+- Move to the desired location
+- Press p to paste
+- Delete a Word
+- Use v to select the word
+- Press d to delete
+- Undo Mistake
+- Press u in Normal mode to undo
+- Press Ctrl-r to redo if needed
+
+🔄 Bonus: Change and Replace
+- c in Select mode deletes and enters Insert mode—great for replacing text.
+- r replaces a single character under the cursor.
+
+

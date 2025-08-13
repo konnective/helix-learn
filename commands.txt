@@ -1,0 +1,27 @@
+🧠 Helix Command Cheat Sheet (So Far)
+| Action | Mode | Command / Shortcut | Description | 
+| Open Project Folder | Terminal | hx . | Opens current directory in Helix | 
+| Open File Picker | Normal | Space + f | Fuzzy search and open files | 
+| Create New File | Command | :open filename | Opens a new file buffer | 
+| Save File | Command | :w | Saves current file | 
+| Quit Helix | Command | :q | Quits editor | 
+| Save & Quit | Command | :wq | Saves and exits | 
+| Copy (Yank) | Select | y | Copies selected text | 
+| Paste | Normal | p | Pastes after cursor | 
+| Delete | Select | d | Deletes selected text | 
+| Change (Delete + Insert) | Select | c | Deletes and enters Insert mode | 
+| Undo | Normal | u | Undoes last change | 
+| Redo | Normal | Ctrl + r | Redoes undone change | 
+| Enter Insert Mode | Normal | i | Start typing text | 
+| Enter Select Mode | Normal | v | Select text for editing | 
+| Paste from Clipboard | Insert / Normal | Ctrl + Shift + V or Space + R | Paste from system clipboard | 
+| Open Symbol Picker | Normal | Space + s | List functions/variables in file | 
+| Open Buffer Picker | Normal | Space + b | Switch between open files | 
+| Global Search | Normal | Space + / | Search across all files | 
+| Workspace Symbols | Normal | Space + S | Search symbols across project | 
+| Run Shell Command | Command | :sh touch filename | Create file via shell | 
+| Trigger Autosuggestion | Insert | Ctrl + x | Manually trigger autocomplete | 
+
+
+
+Would you like this cheat sheet exported as a printable Markdown or PDF reference? I can format it for your desktop or editor sidebar.
