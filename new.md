@@ -42,4 +42,4 @@ A quick reference for working efficiently in Helix with React, PHP, HTML, CSS, a
 
 | Action                   | Mode     | Command / Shortcut        | Description |
 |--------------------------|----------|----------------------------|-------------|
-| Trigger autosuggestion   | Insert   | `Ctrl + x`                 | Manually trigger autocomplete |
+| Trigger autosuggestion   | Insert   | `Ctrl + x`                 | Manually trigger autocomplete |added
