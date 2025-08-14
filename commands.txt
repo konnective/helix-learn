@@ -22,6 +22,7 @@
 | Run Shell Command | Command | :sh touch filename | Create file via shell | 
 | Trigger Autosuggestion | Insert | Ctrl + x | Manually trigger autocomplete | 
 
+| Trigger Autosuggestion | Insert | Ctrl + x | Manually trigger autocomplete | 
 
 
 Would you like this cheat sheet exported as a printable Markdown or PDF reference? I can format it for your desktop or editor sidebar.
